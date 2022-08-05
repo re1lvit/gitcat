@@ -1,0 +1,99 @@
+:root {
+    --color1: #4640BE;
+    --color2: #fff;
+    --color3: #FFC656;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.intro__header {
+    padding: 20px 0;
+}
+
+.intro {
+    height: 100vh;
+    background: url(../img/intro/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.intro__overlay {
+    background: rgba(13, 0, 255, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all ease .2s;
+}
+
+.nav-link:hover {
+    color: rgb(111, 181, 247);
+}
+
+.btn {
+    transition: all ease .6s;
+}
+
+.navbar-nav {
+    margin-left: 400px;
+}
+
+.photo {
+    width: 70px;
+    height: 70px;
+}
+
+.my-btn-main {
+    width: 150px;
+    display: inline-block;
+}
+
+.my-btn {
+    width: 150px;
+    display: inline-block;
+}
+
+.my-row {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 660px;
+}
+
+.head__title {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--color2);
+}
+
+.head__title span {
+    color: var(--color3);
+}
+
+@media screen and (max-width: 991px) { 
+    .my-btn {
+        margin-top: 10px;
+        width: 300px;
+        display: inline-block;
+    }
+}
