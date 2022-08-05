@@ -306,6 +306,37 @@ div, p, input, button, form, span, a, ul, li {
     color: #fff;
 }
 
+.help {
+    background-color: var(--color1);
+}
+
+.help__item {
+    align-items: center;
+    margin: auto 0;
+}
+
+.help__subtitle {
+    color: var(--color3);
+    font-weight: 690;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.help__title {
+    color: var(--color2);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.help__photo {
+    margin: 80px 0;
+}
+
+.accordion {
+    width: 450px;
+    border-radius: 200px;
+}
 
 
 @media screen and (max-width: 992px) { 
@@ -391,6 +422,19 @@ div, p, input, button, form, span, a, ul, li {
     .port__card img {
         width: 300px;
     }
+
+    .accordion {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .help__item {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .help__photo {
+    }
 }
 
 @media screen and (max-width: 768px) { 
@@ -398,6 +442,17 @@ div, p, input, button, form, span, a, ul, li {
         width: 200px;
         margin: 0 auto;
     }
+
+    .accordion {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .help__item {
+        text-align: center;
+        margin-top: 30px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -419,5 +474,16 @@ div, p, input, button, form, span, a, ul, li {
     .about__title {
         font-size: 24px;
     }
+
+    .accordion {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .help__item {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
  }
 
