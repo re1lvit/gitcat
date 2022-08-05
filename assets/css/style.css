@@ -296,6 +296,26 @@ div, p, input, button, form, span, a, ul, li {
     .about__mt {
         margin-top: 10px;
     }
+
+    .reviews__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reviews__text {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .reviews__item {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
