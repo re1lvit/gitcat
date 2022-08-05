@@ -473,7 +473,7 @@ div, p, input, button, form, span, a, ul, li {
     }
 
     .accordion {
-        width: 400px;
+        width: 300px;
         margin: 0 auto;
     }
 
@@ -504,7 +504,7 @@ div, p, input, button, form, span, a, ul, li {
     }
 
     .accordion {
-        width: 400px;
+        width: 300px;
         margin: 0 auto;
     }
 
@@ -517,7 +517,7 @@ div, p, input, button, form, span, a, ul, li {
 
 @media screen and (max-width: 576px) {
     .about__item {
-        width: 180px;
+        width: 150px;
         margin: 0 auto;
     }
     .about__info {
@@ -536,13 +536,17 @@ div, p, input, button, form, span, a, ul, li {
     }
 
     .accordion {
-        width: 400px;
+        width: 300px;
         margin: 0 auto;
     }
 
     .help__item {
         text-align: center;
         margin-top: 30px;
+    }
+
+    .together__title {
+        font-size: 20px;
     }
     
  }
