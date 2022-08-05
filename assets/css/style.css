@@ -323,7 +323,9 @@ div, p, input, button, form, span, a, ul, li {
     .item {
         margin: 10px auto;
         flex-direction: column;
+        width: 300px;
     }
+
 
     .about_text_first {
         margin-top: 20px;
@@ -343,16 +345,23 @@ div, p, input, button, form, span, a, ul, li {
     }
 
     .about__number {
-        font-size: 35px;
+        font-size: 25px;
         line-height: 30px;
+        width: 100px;
     }
 
     .about__info {
         font-size: 15px;
+        width: 100px;
     }
 
     .about__mt {
         margin-top: 10px;
+    }
+    
+    .about__item {
+        width: 250px;
+        margin: 0 auto;
     }
 
     .reviews__inner {
@@ -369,7 +378,7 @@ div, p, input, button, form, span, a, ul, li {
     .reviews__item {
         margin: 0 auto;
         margin-top: 20px;
-        width: 350px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -378,6 +387,37 @@ div, p, input, button, form, span, a, ul, li {
     .port__inner {
         flex-direction: column;
     }
+
+    .port__card img {
+        width: 300px;
+    }
 }
 
+@media screen and (max-width: 768px) { 
+    .about__item {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__item {
+        width: 180px;
+        margin: 0 auto;
+    }
+    .about__info {
+        font-size: 15px;
+        width: 80px;
+    }
+
+    .about__number {
+        font-size: 25px;
+        line-height: 30px;
+        width: 80px;
+    }
+
+    .about__title {
+        font-size: 24px;
+    }
+ }
 
