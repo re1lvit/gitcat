@@ -124,14 +124,14 @@ div, p, input, button, form, span, a, ul, li {
     margin: 0 auto;
 }
 
-.about__title {
+.benefits__title {
     font-weight: 600;
     font-size: 16px;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-.about__subtitle {
+.benefits__subtitle {
     font-weight: 400;
     font-size: 14px;
     color: #666;
@@ -139,9 +139,56 @@ div, p, input, button, form, span, a, ul, li {
     margin: 15px auto;
 }
 
-.about__link {
+.benefits__link {
     color: var(--color1);
     margin: 0 auto;
+}
+
+.about__inner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.about_text_first {
+    margin: 0 auto;
+    max-width: 380px;
+}   
+
+
+.about__subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color1);
+}
+
+.about__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about__number {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.about__info {
+    color: var(--color1);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about__mt {
+    margin-top: 30px;
 }
 
 
@@ -162,6 +209,36 @@ div, p, input, button, form, span, a, ul, li {
     .item {
         margin: 10px auto;
         flex-direction: column;
+    }
+
+    .about_text_first {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about__subtitle {
+        font-size: 12px;
+    }
+
+    .about__title {
+        font-size: 26px;
+    }
+
+    .about__text {
+        font-size: 12px;
+    }
+
+    .about__number {
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .about__info {
+        font-size: 15px;
+    }
+
+    .about__mt {
+        margin-top: 10px;
     }
 }
 
