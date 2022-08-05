@@ -377,8 +377,12 @@ div, p, input, button, form, span, a, ul, li {
 }
 
 .footer {
-    display: grid;
-    top: -500px;
+    position: relative;
+    top: -120px;
+}
+
+.footer__logo {
+    width: 100px;;
 }
 
 
